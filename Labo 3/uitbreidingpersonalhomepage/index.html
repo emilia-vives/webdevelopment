@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Homepage</title>
+</head>
+<body>
+<header>
+    <h1>Emilia Stevens</h1>
+</header>
+<section>
+    <!--    Een section hoort een heading te hebben-->
+    <h2>Persoonlijke informatie</h2>
+
+    <ul>
+        <li>volledige naam: Emilia Stevens</li>
+        <li>adres: Peter Seliestraat 55 </li>
+        <li>telefoonnummer: +32 123 45 67 89 </li>
+        <li>e-mailadres: <a href="mailto:emilia.stevens@student.vives.be">emilia.stevens@student.vives.be</a></li>
+        <li>foto:
+            <!--    Je mag geen height en width gebruiken, verklein de resolutie van de image-->
+            <!--een <ul> element mag geen <img> rechtstreeks bevatten: nest de <img> in een <il>-->
+            <img src="images/myphoto.jpg" alt="my photo"></li>
+
+    </ul>
+</section>
+<section>
+    <!--    Een section hoort een heading te hebben-->
+    <h2>Hobby's</h2>
+        <ol>
+            <li>Badminton<img src="images/badmintonlogo.png" alt="badminton">
+                <ul>
+                    <li>Elke week speel ik 1 avond badminton bij de <a href="https://www.kbmt.be/">Kortrijkse Badmintonclub</a></li>
+                </ul>
+
+            </li>
+            <li>Video Games<img src="images/civilization6.jpg" alt="civilization 6 coverfoto"><img src="images/sims3.jpg" alt="sims 3 logo">
+                <ul>
+                    <li>Tijdens mijn vrije tijd speel ik graag games zoals <a href="https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/">Civilization VI</a> en <a href="https://be.thesims3.com/">De Sims 3</a></li>
+
+                </ul>
+            </li>
+            <li>Koken<img src="images/kookmuts.jpg" alt="kookmuts">
+                <ul>
+                    <li>Samen met mijn vriend kook ik vaak <a href="https://www.leukerecepten.nl/vegetarische-recepten/">vegetarische gerechten</a></li>
+                </ul>
+            </li>
+        </ol>
+
+</section>
+<section>
+    <h2>Interesses</h2>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/The_Office_(American_TV_series)"> The Office US</a><img src="images/theofficeus.jpg" alt="the office us logo"></li>
+            <li><a href="https://www.youtube.com/watch?v=6K-eMKjo1bs&list=RD6K-eMKjo1bs&start_radio=1">Epic: The Musical</a><img src="images/epicthemusical.png" alt="epic the musical coverfoto"></li>
+            <li><a href="https://www.vlaanderen.be/huisdierinfo/huisdierwijzers/zoogdieren/katten">Dieren</a><img src="images/kat.jpg" alt="kat"></li>
+        </ul>
+</section>
+
+<section>
+    <h2>Prognose</h2>
+    <table border="1px">
+        <thead>
+            <tr> <!--table row-->
+                <th></th>
+                <th>Web Development 1</th>
+                <th>Excel</th>
+                <th>Databases</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!--th want dit is een rijkop-->
+                <th scope="row">Emilia</th>
+                <td>14/20</td>
+                <td>16/20</td>
+                <td>12/20</td>
+            </tr>
+            <tr>
+                <!--th want dit is een rijkop-->
+                <th scope="row">Maayke</th>
+                <td>15/20</td>
+                <td>19/20</td>
+                <td>13/20</td>
+            </tr>
+            <tr>
+                <!--th want dit is een rijkop-->
+                <th scope="row">Ciara</th>
+                <td>20/20</td>
+                <td>17/20</td>
+                <td>18/20</td>
+            </tr>
+            <tr>
+                <!--th want dit is een rijkop-->
+                <th scope="row">D&eacute;bora</th>
+                <td>16/20</td>
+                <td>18/20</td>
+                <td>14/20</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+</body>
+</html>

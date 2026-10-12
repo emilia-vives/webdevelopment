@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Semantische elementen</title>
+</head>
+<body>
+<header>
+
+  <h1>Welcome On Our Website!</h1>
+<!--  Image heeft altijd een alt (alternate text) nodig-->
+  <img src="images/logo.jpg" alt="logo VIVES" />
+</header>
+
+
+
+<!--nav = navigation, vroeger was dit div (division)-->
+<nav>
+  <header>
+    <h2>Choose Your Interest</h2>
+  </header>
+  <ul>
+    <li>Menu 1
+    <!--bestaat uit een onderverdeling, dus </li> wordt niet gesloten hier, maar later-->
+      <ul>
+        <li>submenu 1.1</li>
+        <li>submenu 1.2</li>
+      </ul>
+    </li>
+    <li>Menu 2
+      <oL>
+        <li>submenu 2.2</li>
+      </oL>
+    </li>
+    <li>Menu 3</li>
+  </ul>
+</nav>
+
+<section>
+  <h1>Artikelen over: Fruit</h1>
+  <article> <!--een stukje informatie die je wil verzamelen, informatie die samenhoort--->
+    <h2>Appel</h2>
+    <p>Een appel komt van een appelboom...</p>
+  </article>
+  <article>
+    <h2>Sinaasappel</h2>
+    <p>De sinaasappel is een oranje ronde vrucht met...</p>
+  </article>
+  <article>
+    <h2>Banaan</h2>
+    <p>Waarom zijn bananen eigenlijk krom, dat komt omdat...</p>
+  </article>
+</section>
+
+<aside> <!-- Bijkomende informatie-->
+  <h2>Nieuws & Updates</h2>
+  <p>Bekijk ons laatste blogartikel over <a href="#">de trends in
+    webontwikkeling</a> of lees onze <a href="#">klantbeoordelingen</a>.</p>
+  <h2>Contact Informatie</h2>
+  <address> <!--- Adres waar hij alles kan terug vinden-->
+    Neem contact met ons op via <a
+          href="mailto:info@mijnwebsite.com">info@mijnwebsite.com</a> of bel ons op 123-
+    456789.
+  </address>
+</aside>
+<footer>
+  <ul>
+    <li>Copyright</li>
+    <li>Social Media Links</li>
+  </ul>
+</footer>
+
+
+</body>
+</html>
