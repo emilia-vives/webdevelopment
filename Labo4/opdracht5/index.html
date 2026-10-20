@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Homepage</title>
+</head>
+<body>
+<header>
+    <h1>Emilia Stevens</h1>
+</header>
+<section>
+    <!--    Een section hoort een heading te hebben-->
+    <h2>Persoonlijke informatie</h2>
+
+    <ul>
+        <li>volledige naam: Emilia Stevens</li>
+        <li>adres: Peter Seliestraat 55 </li>
+        <li>telefoonnummer: +32 123 45 67 89 </li>
+        <li>e-mailadres: <a href="mailto:emilia.stevens@student.vives.be">emilia.stevens@student.vives.be</a></li>
+        <li>foto:
+            <!--    Je mag geen height en width gebruiken, verklein de resolutie van de image-->
+            <!--een <ul> element mag geen <img> rechtstreeks bevatten: nest de <img> in een <il>-->
+            <img src="images/myphoto.jpg" alt="my photo"></li>
+
+    </ul>
+</section>
+<section>
+    <!--    Een section hoort een heading te hebben-->
+    <h2>Hobby's</h2>
+    <a href="hobbys.html">Dit is een link naar mijn hobby's</a>
+
+</section>
+<section>
+    <h2>Interesses</h2>
+    <a href="likes.html">Dit is een link naar mijn likes</a>
+</section>
+
+<section>
+    <h2>Prognose</h2>
+    <table border="1px">
+        <thead>
+        <tr> <!--table row-->
+            <th></th>
+            <th>Web Development 1</th>
+            <th>Excel</th>
+            <th>Databases</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <!--th want dit is een rijkop-->
+            <th scope="row">Emilia</th>
+            <td>14/20</td>
+            <td>16/20</td>
+            <td>12/20</td>
+        </tr>
+        <tr>
+            <!--th want dit is een rijkop-->
+            <th scope="row">Maayke</th>
+            <td>15/20</td>
+            <td>19/20</td>
+            <td>13/20</td>
+        </tr>
+        <tr>
+            <!--th want dit is een rijkop-->
+            <th scope="row">Ciara</th>
+            <td>20/20</td>
+            <td>17/20</td>
+            <td>18/20</td>
+        </tr>
+        <tr>
+            <!--th want dit is een rijkop-->
+            <th scope="row">D&eacute;bora</th>
+            <td>16/20</td>
+            <td>18/20</td>
+            <td>14/20</td>
+        </tr>
+        </tbody>
+    </table>
+</section>
+</body>
+</html>
