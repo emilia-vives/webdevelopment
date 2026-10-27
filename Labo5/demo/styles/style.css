@@ -1,0 +1,23 @@
+h1,h2 {
+    color: blue;
+    font-size: 5em;
+}
+
+.styleYellow
+{color:yellow;}
+
+/*Class styles*/
+.styleRed
+{color:red;
+font-size: 3em;}
+
+#menu
+{
+    color: blue;
+}
+
+/*section h1 !*h1 moet een afstammeling zijn van section *!*/
+/*{color:yellow;}*/
+
+section>h1/*-het MOET de parent zijn */
+{color:green;}
