@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Box</title>
+    <style>
+    body{
+        background-color: yellow;
+        color: green;
+        border : 2px solid red;
+        font-size: 5em;
+        }
+    span{
+        width: 400px;
+        /*Dit is nu een block element! dus width erboven zal wel werken*/
+        display: inline-block;
+    }
+    p{
+        width: 49%;
+        background-color: gray;
+        /*padding-top: 100px;*/
+        /*padding-bottom: 100px;*/
+        display: inline-block;
+
+    }
+    h1 {
+        color :red;
+        background-color: blue;
+        width: 50%;
+        font-size: 3em;
+        border : 1px solid red;
+        /*Dit zet top, bottom, left en right margin*/
+        margin: 50px;
+        /*padding: 75px;*/
+        margin-top: 150px;
+        margin-bottom: 150px;
+        /*      top  right  bottom left --> begint aan de top en gata wijzerszin*/
+        /*padding: 50px 20px 100px 300px;*/
+
+        /*Kan je ook in paren doen!*/
+        padding: 200px 300px;
+    }
+    img{
+        display: block;
+        /*Auto wetkt niet op inline element, wel op block element*/
+        /*Berekent automatisch plaats links en rechts van dit element -> Zal ih midden staan bij auto*/
+        margin-left: auto;
+        margin-right: auto;
+    }
+    </style>
+</head>
+<body>
+
+<h1>VIVES</h1>
+<h1>CSS</h1>
+
+<p>selector</p>
+<p>selector</p>
+
+<h1>hallo</h1>
+<span>element1</span>
+<span>element2</span>
+<span>element3</span>
+<span>element4</span>
+<span>element5</span>
+
+<span>CSS</span>
+<!--img = inline element, dus het zal op dezelfde lijn als andere inline elementen komen te staan-->
+<!--Fix dit door het een block element te maken bij style-->
+
+<img src="images/img_white_flower.jpg" alt="flower image"/></body>
+
+</html>

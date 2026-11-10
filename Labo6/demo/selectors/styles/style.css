@@ -1,0 +1,37 @@
+body {
+    background-color: yellow;
+    font-size: 3em;
+}
+/*Inline CSS (style="color: green;") heeft normaal voorrang op gewone interne en externe CSS.
+Interne CSS (<style>) en externe CSS (<link>) hebben dezelfde voorrang.
+Bij gelijke specificiteit wint de regel die het laatst staat.*/
+p {
+    background-color: blue;
+}
+
+/* pseudo-element selector */
+/*pseudo-element-selector een soort selector die je in staat stelt om specifieke delen van een element te stylen*/
+p::first-letter{
+    font-size: 5em;
+    color: red;
+}
+
+/*eerste lijn van p-element krijgt een underline*/
+p::first-line {
+    text-decoration: underline;
+}
+
+a:link{
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;
+}
+
+li:nth-child(2n){
+    color: blue;
+}
+
+li:nth-child(2n+1){
+    color: red;
+}

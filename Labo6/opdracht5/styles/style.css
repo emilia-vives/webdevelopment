@@ -1,0 +1,8 @@
+a::before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-image: url("../images/hyperlink.jpg");
+    background-size: contain;
+}
